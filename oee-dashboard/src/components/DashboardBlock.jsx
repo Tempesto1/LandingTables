@@ -126,7 +126,7 @@ export default function DashboardBlock({
             scroll={false}
           />
 
-          {dateFilter?.showHint && <div className="centerHint">ВЫБЕРИТЕ ДАТУ</div>}
+          {dateFilter?.showHint}
         </div>
       ) : (
         <div className="contentArea">
